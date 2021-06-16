@@ -1,0 +1,93 @@
+[
+    {
+        "organization": "Garmin Intl",
+        "title": "Hardware Design Engineer Intern",
+        "dateStart": "2015-06-01",
+        "dateEnd": "2015-09-01",
+        "duties": [
+            "Designed, prototyped, and tested embedded hardware and software for low-cost water temperature and heading sensors",
+            "Took the initiative to learn and implement algorithms for tilt-compensated magnetometer-based heading sensors, ultimately resulted in the production of a higher-tier heading sensor alternative",
+            "Performed and documented primary investigation into new sonar transducer technologies",
+            "Took measures to seamlessly utilize the same design for multiple products to reduce hardware costs"
+        ]
+    },
+    {
+        "organization": "Dynetics, Inc",
+        "title": "Radar Simulation and Modeling Engineer Intern",
+        "dateStart": "2016-06-01",
+        "dateEnd": "2016-09-01",
+        "duties": [
+            "Designed and tested Matlab code for modeling foreign tracking radar systems​",
+            "Presented poster detailing work to company executives"
+        ]
+    },
+    {
+        "organization": "Missouri S&T",
+        "department": "Advanced Systems Research Lab",
+        "title": "Undergraduate Researcher",
+        "dateStart": "2014-04-01",
+        "dateEnd": "2015-05-01",
+        "type": "research",
+        "duties": [
+            "Developed basic formation control and consensus algorithms for aerial swarm robotics under the supervision of Dr. Tansel Yucelen and a graduate mentor​",
+            "Installed and maintained large-area motion capture system"
+        ]
+    },
+    {
+        "organization": "Senior Design",
+        "title": "A LIDAR-based Navigation System for the Visually Impaired",
+        "dateStart": "2015-08-01",
+        "dateEnd": "2016-06-01",
+        "type": "research",
+        "duties": [
+            "Developed code to extract and filter data from lidar system",
+            "Integrated lidar processing code and audio feedback code"
+        ]
+    },
+    {
+        "organization": "CU Boulder",
+        "department": "Biomedical Microfluidics Lab",
+        "title": "Graduate Research Assistant",
+        "dateStart": "2017-03-01",
+        "dateEnd": "2018-08-01",
+        "type": "research",
+        "duties": [
+            "​Developed microfluidic devices for applications in cellular drug delivery and drug screening",
+            "Basic cellular procedures including cell culture, maintenance, treatment, tagging, & fluorescent microscopy",
+            "​CFD simulations of diluted species in laminar flow in COMSOL Multiphysics",
+            "Managed a 7-person senior design team of undergraduate engineering students"
+        ]
+    },
+    {
+        "organization": "CU Boulder",
+        "department": "Autonomous Robotics & Perception Group",
+        "title": "Graduate Research Assistant",
+        "dateStart": "2018-08-01",
+        "type": "research",
+        "duties": [
+            "​Senior member of team MARBLE in the DARPA Subterranean Challenge",
+            "Develop hardware for perception and mobility systems",
+            "​CFD simulations of diluted species in laminar flow in COMSOL Multiphysics",
+            {
+                "duty": "Lead teams to develop software for",
+                "tasks": [
+                    "visual/thermal/chemical/RF object detection/localization",
+                    "visual-/lidar-based absolute reference frame registration",
+                    "algorithmic- and machine learning-based robot motion planning techniques for highly cluttered environments"
+                ]
+            }
+        ]
+    },
+    {
+        "organization": "Missouri S&T",
+        "department": "Mars Rover Design Team",
+        "title": "Electrical Hardware Architect",
+        "dateStart": "2013-01-01",
+        "dateEnd": "2016-06-01",
+        "type": "research",
+        "duties": [
+            "Lead the development of all power and embedded electrical systems on the rover robot",
+            "Directly managed a team of 8 undergraduate engineering students on special projects related to complex motion control for University Rover Challenge"
+        ]
+    }
+]

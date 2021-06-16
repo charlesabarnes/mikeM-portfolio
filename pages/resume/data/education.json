@@ -1,0 +1,26 @@
+[
+    {
+        "yearCompleted": "2013",
+        "degree": "Associate's",
+        "majors": ["Science & Mathematics"],
+        "school": "Northwest Missouri State University"
+    },
+    {
+        "yearCompleted": "2016",
+        "degree": "Bachelor's",
+        "majors": ["Electrical Engineering", "Computer Engineering"],
+        "school": "​Missouri University of Science & Technology"
+    },
+    {
+        "yearCompleted": "2018",
+        "degree": "Master's",
+        "majors": ["Mechanical Engineering"],
+        "school": "University of Colorado Boulder"
+    },
+    {
+        "yearCompleted": "In Progress",
+        "degree": "Doctorate",
+        "majors": ["Mechanical Engineering"],
+        "school": "University of Colorado Boulder"
+    }
+]
