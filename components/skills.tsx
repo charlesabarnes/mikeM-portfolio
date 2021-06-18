@@ -1,9 +1,13 @@
-import { Skills } from "../interfaces/skills";
+import { ISkills } from "../interfaces/skills";
 
 interface Props {
-  data: Skills
+  data: ISkills;
 }
 
 export default function SkillsComponent(props: Props) {
-    return <div></div>
+    return <div>
+      { props.data.map(skill => {
+        return <div key={skill}>{skill}</div> 
+      }) }
+    </div>
 }

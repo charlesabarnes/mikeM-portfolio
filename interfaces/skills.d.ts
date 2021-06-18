@@ -1,9 +1,9 @@
-export interface OtherSkill {
-    name: Skill;
-    skills: Skills;
+export interface IOtherSkill {
+    name: ISkill;
+    skills: ISkills;
 }
 
-export type OtherSkills = OtherSkill[];
+export type IOtherSkills = IOtherSkill[];
 
-export type Skill = string;
-export type Skills = Skill[];
+export type ISkill = string;
+export type ISkills = ISkill[];

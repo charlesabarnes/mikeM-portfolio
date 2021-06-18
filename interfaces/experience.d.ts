@@ -1,7 +1,7 @@
-export type Experience = Role[];
+export type IExperience = IRole[];
 
-export interface Role {
-    duties: string[] | Duty[];
+export interface IRole {
+    duties: string[] | IDuty[];
     organization: string;
     department?: string;
     title: string;
@@ -10,7 +10,7 @@ export interface Role {
     type: "research" | "professional"
 }
 
-export interface Duty {
+export interface IDuty {
     duty: string;
     task: string[];
 }
