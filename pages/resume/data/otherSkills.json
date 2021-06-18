@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Electronic Design",
+        "skills": [
+            "analog & digital circuitry design/fabrication/testing", 
+            "electromechanical systems", 
+            "advanced system engineering"
+        ]
+    },
+    {
+        "name": "Microfabrication",
+        "skills": [
+            "evaporation/sputtering", 
+            "ALD", 
+            "photolithography", 
+            "optical interferometry", 
+            "mask design", 
+            "PDMS fabrication/bonding"
+        ]
+    },
+    {
+        "name": "Cell Maintenance",
+        "skills": [
+            "culture", 
+            "maintenance", 
+            "treatment", 
+            "tagging", 
+            "fluorescent microscopy", 
+            "biohazard safety"
+        ]
+    }
+]
