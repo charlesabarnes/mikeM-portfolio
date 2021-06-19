@@ -1,8 +1,8 @@
 import { Component } from "react";
-import { IEducation } from "../../interfaces/education";
-import { IExperience } from "../../interfaces/experience";
-import { IOtherSkills, ISkills } from "../../interfaces/skills";
-import SkillsComponent from "../../components/skills";
+import { IEducation } from "../interfaces/education";
+import { IExperience } from "../interfaces/experience";
+import { IOtherSkills, ISkills } from "../interfaces/skills";
+import SkillsComponent from "../components/skills";
 interface IResume {
   experience: IExperience, 
   skills: ISkills, 
@@ -25,10 +25,10 @@ class Resume extends Component<IResume> {
 }
 
 export async function getStaticProps(context) {
-  const experience = (await fetch(`${server}/resume/data/experience.json`)).text();
-  const skills = (await fetch(`${server}/resume/data/skills.json`)).text();
-  const otherSkills = (await fetch(`${server}/resume/data/otherSkills.json`)).text();
-  const education = (await fetch(`${server}/resume/data/education.json`)).text();
+  const experience = await (await fetch(`${server}/resume/data/experience.json`)).json();
+  const skills = await (await fetch(`${server}/resume/data/skills.json`)).json();
+  const otherSkills = await (await fetch(`${server}/resume/data/otherSkills.json`)).json();
+  const education = await (await fetch(`${server}/resume/data/education.json`)).json();
   return {
     props: {
       experience,
