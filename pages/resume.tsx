@@ -1,14 +1,5 @@
 import { Component } from "react";
-import { IEducation } from "../interfaces/education";
-import { IExperience } from "../interfaces/experience";
-import { IOtherSkills, ISkills } from "../interfaces/skills";
-import SkillsComponent from "../components/skills";
-interface IResume {
-  experience: IExperience, 
-  skills: ISkills, 
-  otherSkills: IOtherSkills, 
-  education: IEducation
-}
+import ResumeComponent from "../components/resume/resume";
 
 class Resume extends Component<IResume> {
 
@@ -19,7 +10,7 @@ class Resume extends Component<IResume> {
   render() {
     return <div>
       <h1>Testing text works!</h1>
-      <SkillsComponent data={this.props.skills}></SkillsComponent>
+      <ResumeComponent data={this.props}></ResumeComponent>
     </div>
   }
 }

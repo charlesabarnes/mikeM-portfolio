@@ -1,4 +1,4 @@
-import { ISkills } from "../interfaces/skills";
+import { ISkills } from "../../interfaces/skills";
 
 interface Props {
   data: ISkills;
