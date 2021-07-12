@@ -20,9 +20,6 @@ class Resume extends Component<IResume> {
 }
 
 export async function getStaticProps(context) {
-  const skills = await (await fetch(`${server}/resume/data/skills.json`)).json();
-  const otherSkills = await (await fetch(`${server}/resume/data/otherSkills.json`)).json();
-  const education = await (await fetch(`${server}/resume/data/education.json`)).json();
   return {
     props: {
       experience,
