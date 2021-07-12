@@ -39,7 +39,6 @@ function experiencePane(role: IRole): ReactElement {
 
 function mapDuty(duties: IDuty[] | string[]): ReactElement {
 
-
     return <React.Fragment>{
         duties.map(duty => {
             if (typeof duty === 'string') {
