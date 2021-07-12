@@ -1,5 +1,9 @@
 import { Component } from "react";
 import ResumeComponent from "../components/resume/resume";
+import experience from "../public/resume/data/experience.json"
+import skills from "../public/resume/data/skills.json"
+import otherSkills from "../public/resume/data/otherSkills.json"
+import education from "../public/resume/data/education.json"
 
 class Resume extends Component<IResume> {
 
@@ -16,7 +20,6 @@ class Resume extends Component<IResume> {
 }
 
 export async function getStaticProps(context) {
-  const experience = await (await fetch(`${server}/resume/data/experience.json`)).json();
   const skills = await (await fetch(`${server}/resume/data/skills.json`)).json();
   const otherSkills = await (await fetch(`${server}/resume/data/otherSkills.json`)).json();
   const education = await (await fetch(`${server}/resume/data/education.json`)).json();

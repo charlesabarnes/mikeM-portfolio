@@ -42,7 +42,7 @@ function mapDuty(duties: IDuty[] | string[]): ReactElement {
     return <React.Fragment>{
         duties.map(duty => {
             if (typeof duty === 'string') {
-                return <List.Item>
+                return <List.Item key={duty}>
                 <List.Icon name="angle right"/>
                 <List.Content>{duty}</List.Content>
                 </List.Item>
