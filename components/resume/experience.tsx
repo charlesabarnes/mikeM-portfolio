@@ -29,7 +29,7 @@ function experiencePane(role: IRole): ReactElement {
         <Grid.Row>{role.title} @ {role.organization}</Grid.Row>
         <Grid.Row>{role.dateStart} - {role.dateEnd || 'Present'}</Grid.Row>
         <Grid.Row>
-            <List animated="true">
+            <List animated>
                 {mapDuty(role.duties)}
             </List>
         </Grid.Row>
