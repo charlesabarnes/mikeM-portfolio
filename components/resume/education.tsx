@@ -7,7 +7,7 @@ interface Props {
 export default function EducationComponent(props: Props) {
     return <div>
       { props.data.map(degree => {
-        return <div key={degree.degree}>{degree}</div> 
+        return <div key={degree.degree}>{degree.degree}</div> 
       }) }
     </div>
 }

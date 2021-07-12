@@ -1,3 +1,5 @@
+import { SemanticICONS } from "semantic-ui-react/dist/commonjs/generic";
+
 export type IExperience = IRole[];
 
 export interface IRole {
@@ -12,5 +14,5 @@ export interface IRole {
 
 export interface IDuty {
     duty: string;
-    task: string[];
+    tasks: string[];
 }
